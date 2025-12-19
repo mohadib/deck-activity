@@ -29,14 +29,14 @@ function App() {
 
       <Activity mode={selectedView === 'activity-map' ? 'visible' : 'hidden'}>
         <div>Showing activity map</div>
-        <div style={{height:'500px', width:'500px',position:'relative'}}>
+        <div style={{height:'500px', width:'500px'}}>
           <Map/>
         </div>
       </Activity>
 
       <div style={{display: selectedView === 'map' ? 'block' : 'none'}}>
         <div>Showing map</div>
-        <div style={{height:'500px', width:'500px',position:'relative'}}>
+        <div style={{height:'500px', width:'500px'}}>
           <Map/>
         </div>
       </div>
